@@ -1,8 +1,8 @@
 # Setting up the AWS C++ SDK
 
 > Note: All steps were performed using Ubuntu 18.04.4 LTS.
-
 > Also, this installation is using command line tools.
+> Refer [aws-sdk-cpp GitHub Readme](https://github.com/aws/aws-sdk-cpp/blob/master/README.md) for more details.
 
 This Readme contains the steps to setup the AWS C++ SDK.
 
