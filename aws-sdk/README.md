@@ -46,7 +46,7 @@ sudo apt-get install cmake
 
 ## Creating an Out-of-source build
 
-This will build aws-sdk as **Release build**
+This will install aws-sdk as **Release build**
 
 Clone the AWS SDK C++ repository from GitHub
 
@@ -61,10 +61,19 @@ mkdir build-aws-sdk
 cd build-aws-sdk
 ```
 
-Now, build using cmake
+Now, build files using cmake
 
 ```
 cmake <path/to/the/aws-sdk-cpp/directory>
 ```
 
-Now, we have AWS SDK built in the **build-aws-sdk** directory.
+Build the SDK binaries
+```
+sudo make
+```
+
+Finally, Install the SDK 
+```
+sudo make install
+```
+Now, we have AWS SDK installed in the **build-aws-sdk** directory.
