@@ -16,4 +16,7 @@ More details in [http-endpoint](https://github.com/manas11/testing-bucket-notifi
 
 ## AWS SDK Adapter [&uarr;](#contents) 
 
+C++ adapter to receive HTTP messages at one end and transmit them to SNS or Lambda endpoints.
+
 ## Setting up the Ceph cluster [&uarr;](#contents)
+This directory contains steps to setup ceph cluster.
