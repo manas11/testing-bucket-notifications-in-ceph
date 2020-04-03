@@ -1,4 +1,4 @@
-# Running a Test Application
+# Adapter to translate from HTTP endpoint to SNS and Lambda endpoint
 First Setup the AWS C++ SDK and then Build the application
 # Setting up the AWS C++ SDK
 
