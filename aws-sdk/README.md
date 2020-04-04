@@ -1,4 +1,6 @@
 # Adapter to translate from HTTP endpoint to SNS and Lambda endpoint
+This adapter will be using a HTTP server at defined port and then sending the body content of the request to SNS and Lambda endpoints.
+
 First Setup the AWS C++ SDK and then Build the application
 # Setting up the AWS C++ SDK
 
