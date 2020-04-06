@@ -59,4 +59,16 @@ OSD=3 MON=1 MDS=0 MGR=1 RGW=1 ../src/vstart.sh -n -d --short
 * **MGR** - ceph manager (1)
 * **RGW** - RADOS gateway number = 1 gateway
 
+## After starting the development cluster,
+The following daemon was started :
+ **ceph-mgr(1 instance)**, **ceph-mon(1 instance)**, **ceph-osd(3 instances)**
+
+**The cluster started in following steps:**
+1. first, mgr dashboard module was started - ceph-mgr
+2. for this dashboard credentials were generated as username : admin and password a hash
+3. Then, the REST server was started 
+4. OSD named 0, 1, 2 were started, using the configuration file in build/ceph.conf
+5. Then S3 and Swift users were created
+6. The RADOS gateway was started on localhost:8000
+7. 2 URL were generated, one for dashboard and other for restful server
 
