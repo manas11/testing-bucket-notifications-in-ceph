@@ -1,0 +1,3 @@
+/home/manas/gsoc/build-aws-sdk/code/sns-adapter/CMakeFiles/rebuild_cache.dir
+/home/manas/gsoc/build-aws-sdk/code/sns-adapter/CMakeFiles/edit_cache.dir
+/home/manas/gsoc/build-aws-sdk/code/sns-adapter/CMakeFiles/adapter.dir

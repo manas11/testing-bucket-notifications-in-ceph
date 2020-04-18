@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/adapter.dir/adapter.cpp.o  -o adapter  -Wl,-rpath,/usr/local/lib /usr/local/lib/libaws-cpp-sdk-sns.so /usr/local/lib/libaws-cpp-sdk-core.so /usr/local/lib/libaws-c-event-stream.so.1.0.0 /usr/local/lib/libaws-c-common.so.1.0.0 -lm -pthread -lrt /usr/local/lib/libaws-checksums.so 

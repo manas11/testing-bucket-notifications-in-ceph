@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/manas/gsoc/build-aws-sdk/code/sns-adapter/adapter.cpp
+aws/core/Aws.h
+-
+aws/sns/SNSClient.h
+-
+aws/core/client/ClientConfiguration.h
+-
+aws/core/http/Scheme.h
+-
+aws/sns/model/PublishRequest.h
+-
+aws/sns/model/PublishResult.h
+-
+aws/core/auth/AWSCredentials.h
+-
+iostream
+-
+httplib.h
+/home/manas/gsoc/build-aws-sdk/code/sns-adapter/httplib.h
+
