@@ -42,12 +42,12 @@ aws --endpoint-url http://localhost:8000 s3api create-bucket --bucket mybucket
 
 ### Create a notification with filters
 
-- Add the filters required to the **notification_filters.py**
+- Add the filters required to the **notification_filter.py**
 - Assuming the notification name as **mynot**
 - Now, run using this command:
 
 ```
-./notification_filters.py mybucket arn:aws:sns:default::mytopic mynot
+./notification_filter.py mybucket arn:aws:sns:default::mytopic mynot
 ```
 
 **Output of this command**
