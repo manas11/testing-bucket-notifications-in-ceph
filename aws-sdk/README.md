@@ -34,7 +34,7 @@ Install dependencies
 
 ```
 sudo apt-get update
-sudo apt-get install apt-transport-https ca-certificates gnupg software-properties-common wget
+sudo apt-get install apt-transport-https ca-certificates gnupg software-properties-common wget gcc build-essential
 ```
 
 Obtain the signing key
